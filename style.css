@@ -1866,6 +1866,10 @@ a.h-text-dark:hover {
 	min-height: 40vh !important;
 }
 
+.min-vh-35 {
+	min-height: 35vh !important;
+}
+
 .min-vh-25 {
 	min-height: 25vh !important;
 }
@@ -5891,7 +5895,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 .slider-caption p {
 	margin-top: 30px;
 	margin-bottom: 10px;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
 }
 
 @media (max-width: 991.98px) {
@@ -16802,3 +16806,110 @@ label.checkbox { padding-left: 20px; }
 }
 
 
+.prices_row {
+	margin-top: 40px;
+}
+.subtitle_price {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.subtitle_price {
+	margin-top: 20px;
+}
+
+.price-title {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+/*
+.secondary_bg {
+	padding: 20px 0px 0px 0px;
+	background-color: #F5F5F5;
+}
+/*
+.columns_axs_container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+}
+
+.columns_axs {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+  }*/
+/*
+
+  .columns_axs_container {  display: block;}@media only screen and (min-width: 1024px) {  .columns_axs_container {    display: flex;  }}
+
+  @media only screen and (min-width: 1024px) {
+	.columns_axs {
+	  display: flex;
+	}
+	.col-lg-4 {
+		width: 100%;
+	}
+  }*/
+  .slider-caption  {
+	justify-content: end;
+	position: absolute;
+	position: inherit;
+}
+  @media only screen and (min-width: 1440px) {
+	  .col-sep{
+		  border-left: 1px solid #33bcdb;
+		  border-right: 1px solid #33bcdb;
+	  }
+	  .slider-caption > div{
+		  padding-bottom: 5%;
+	  }
+	  .slider-caption-left > div{
+		  padding-left: 5%;
+	  }
+	  .slider-caption-right > div{
+		  padding-right: 5%;
+	}
+	  .slider-caption-right{
+		  margin-right: 0px;
+	  }
+	  .slider-container {
+		width: 100%;
+		max-width: 100%;
+		position: absolute;
+		height: 100%;
+		right: 0px;
+	}
+	.slider-caption-right {
+		justify-content: end;
+	}
+	.slider-caption-left{
+		margin-left: initial;
+	}
+	  
+  }
+  @media only screen and (max-width: 1440px) {
+	  .slider-caption-right >div > h2 {
+		  text-align: right;
+	  }
+  }
+
+  @media only screen and (max-width: 1024px) {
+	.col-sep{
+		border-top: 1px solid #33bcdb;
+		border-bottom: 1px solid #33bcdb;
+		margin: 30px 0px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-bottom: 20px; 
+	}
+	.content-pricing {
+		padding: 20px 0px;
+	}
+}
+
+h2, .d-sm-block{
+	color: #fff! important;
+}

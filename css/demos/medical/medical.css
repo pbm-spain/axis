@@ -171,3 +171,8 @@ ul.price-table li .value {
 .rtl ul.price-table li span { float: right; }
 
 .rtl ul.price-table li .value { float: left; }
+
+
+.subtitle_price {
+	margin-top: 10px;
+}
